@@ -125,59 +125,59 @@ CREATE TABLE valoraciones (
 );
 -- Departamentos
 insert into departamentos values
-	(1, 'Sonsonate'),
-	(2, 'Ahuachapan'),
-	(3, 'Santa Ana'),
-	(4, 'Cabañas'),
-	(5, 'Usulutan');
+	( 'Sonsonate'),
+	( 'Ahuachapan'),
+	( 'Santa Ana'),
+	( 'Cabañas'),
+	( 'Usulutan');
 
 -- Municipios
 insert into municipios values
-	(1,'Sonsonate Norte', 1),
-	(2,'Sonsonate Este', 1),
-	(3,'Sonsonate Oeste', 1),
-	(4,'Sonsonate Centro', 1),
-	(5,'Ahuachapan Sur', 2);
+	( 'Sonsonate Norte', 1),
+	('Sonsonate Este', 1),
+	('Sonsonate Oeste', 1),
+	('Sonsonate Centro', 1),
+	('Ahuachapan Sur', 2);
 
 -- Distritos
 insert into distritos values
-	(1, 'Nahuizalco', 1),
-	(2, 'Izalco', 1),
-	(3, 'Acajutla', 1),
-	(4, 'Sonsonate', 2),
-	(5, 'Guaymango', 2);
+	( 'Nahuizalco', 1),
+	( 'Izalco', 1),
+	( 'Acajutla', 1),
+	( 'Sonsonate', 2),
+	('Guaymango', 2);
 
 -- Direcciones 
 insert into direcciones values
-	(1,'Col Madera', 'Calle 1', 1, 03005),
-	(2,'Col Balsarmar', 'Calle 2', 2, 03007),
-	(3,'Col Nueva Ventura', 'Calle 8', 3, 03001),
-	(4,'Col Cangrejo', 'Calle 9', 4, 03014),
-	(5,'Col Higueras', 'Calle 11', 5, 03006);
+	('Col Madera', 'Calle 1', 1, 03005),
+	('Col Balsarmar', 'Calle 2', 2, 03007),
+	('Col Nueva Ventura', 'Calle 8', 3, 03001),
+	('Col Cangrejo', 'Calle 9', 4, 03014),
+	('Col Higueras', 'Calle 11', 5, 03006);
 	
 -- Cargos
 insert into cargos values
-	(1,'Conserje'),
-	(2,'Masajista'),
-	(3,'Recepcionista'),
-	(4,'Portero'),
-	(5,'Gerente');	
+	('Conserje'),
+	('Masajista'),
+	('Recepcionista'),
+	('Portero'),
+	('Gerente');	
 
 -- Empleados
 insert into empleados values
-	(1,'Gabriela','Pimentel','02938723','2303083421342','273937138',1,'01-09-2000','70160688','gaby@gmail.com',1),
-	(2,'Alejandra','Cruz','02908908','1303083421342','373937138',2,'01-09-2001','70160690','ale@gmail.com', 2),
-	(3,'William','Garzona','02908653','9303083421342','473937138',3,'01-10-2002','70160656','william@gmail.com',3),
-	(4,'Yohalmo','Flores','12308723','0303083421342','573937138',4,'01-03-2000','70160657','flores@gmail.com',4),
-	(5,'Karla','Guevara','45608723','5303083421342','073937138',5,'10-09-2000','70160600','karla@gmail.com',5);
+	('Gabriela','Pimentel','02938723','2303083421342','273937138',1,'01-09-2000','70160688','gaby@gmail.com',1),
+	('Alejandra','Cruz','02908908','1303083421342','373937138',2,'01-09-2001','70160690','ale@gmail.com', 2),
+	('William','Garzona','02908653','9303083421342','473937138',3,'01-10-2002','70160656','william@gmail.com',3),
+	('Yohalmo','Flores','12308723','0303083421342','573937138',4,'01-03-2000','70160657','flores@gmail.com',4),
+	('Karla','Guevara','45608723','5303083421342','073937138',5,'10-09-2000','70160600','karla@gmail.com',5);
 
 	-- Servicios Adicionales
 insert into servicios_adicionales values
-	(1,'Limpieza',89.00),
-	(2,'Masajes', 34.00),
-	(3,'GYM', 23.50),
-	(4,'orden de equipaje', 12.00),
-	(5,'desayuno', 34.00);
+	('Limpieza',89.00),
+	('Masajes', 34.00),
+	('GYM', 23.50),
+	('orden de equipaje', 12.00),
+	('desayuno', 34.00);
 
 insert into clientes values 
 ('Juan', 'Perez', '55555555-5', '', '', '1111-1111', 'juan.perez@gmail.com'),
