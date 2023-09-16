@@ -1,0 +1,55 @@
+Rol:SysAdmin
+Opciones:
+* empleados: select, update, insert
+* servicios_adicionales: select, update, insert,
+* historial_servicios: select, update, insert
+* cargos: select, insert, update
+* clientes: select, update, insert
+* habitaciones: select, update, insert
+* reservaciones: select, update, insert
+* valoraciones: select, update, insert
+* tipo_habitaciones: select, update, insert
+* municipios: select, update, insert
+* departamentos: select, update, insert
+* distritos: select, update, insert
+* direcciones: select, update, insert
+* mantenimientos: select, update, insert
+
+Rol: Gerente
+Opciones: 
+* empleados. Select, insert, update
+* servicios_adicionales. Select, update, insert
+* historial_servicios. Select, insert
+* cargos. Select, update, insert
+* clientes. Select, insert 
+* habitaciones. Select, update, insert
+* reservacion. Select, insert
+* valoraciones. Select
+
+Rol: Recepcionista
+Opciones: 
+* registrar clientes. Select, insert, update
+* reservaciones. Select, insert ,update
+* historial de servicios. Select
+* habitaciones. Select, update
+* empleados. Select
+* valoraciones. Select, insert
+
+Rol: Personal de limpieza
+Opciones: 
+* habitaciones. Select
+* mantenimientos. Select, Insert
+
+Rol: Personal de Servicios
+Opciones: 
+* registro de clientes. Select
+* manejo de historial de servicios. Select ,insert
+* consulta de servicios adicionales. Select
+
+Rol: Portero
+Opciones: 
+*
+
+Rol: RRHH
+Opciones: 
+* empleados. Select, insert, update
