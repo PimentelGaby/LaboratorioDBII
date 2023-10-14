@@ -1,0 +1,1 @@
+Exec ObtenerCaja @mes = 02
